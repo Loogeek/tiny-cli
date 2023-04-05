@@ -4,4 +4,4 @@
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [Loogeek](https://github.com/Loogeek)
+[MIT](./LICENSE) License © 2023 [Loogeek](https://github.com/Loogeek)
