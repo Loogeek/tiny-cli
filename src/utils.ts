@@ -194,7 +194,7 @@ function isImageFile(file: string) {
   return supportFiles.includes(fileExtName);
 }
 
-async function getTargetFileImagesCount(targetPath: string) {
+export async function getTargetFileImagesCount(targetPath: string) {
   const patternArray = [
     `${path.join(cwd(), targetPath, '/**/*.png').replace(/\\/g, '/')}`,
     `${path.join(cwd(), targetPath, '/**/*.jpg').replace(/\\/g, '/')}`,

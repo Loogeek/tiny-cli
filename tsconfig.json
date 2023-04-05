@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2018",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ES2022",
     "lib": ["esnext"],
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "declaration": true,
     "strict": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
@@ -18,7 +19,6 @@
   "exclude": [
     "node_modules",
     "bin",
-    "/test/**/*",
-    "examples"
+    "/test/**/*"
   ]
 }
